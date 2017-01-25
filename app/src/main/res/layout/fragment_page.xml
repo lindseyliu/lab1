@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
-          <!--android:layout_width="match_parent"-->
-          <!--android:layout_height="match_parent"-->
-          <!--android:gravity="center" />-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:gravity="center" />-->
 
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-xmlns:tools="http://schemas.android.com/tools"
-android:orientation="vertical"
-android:layout_gravity="bottom"
-android:background="#FF212121">
-
-<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:text="Sign in with Twitter"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    android:layout_gravity="center_horizontal"/>
+    android:layout_gravity="bottom"
+    android:background="#FF212121"
+    android:orientation="vertical">
 
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    tools:text="Sign in with Email"
-    android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#C0C0C0"
+        android:text="Log in with Twitter"
+        android:textColor="#000000"
+        tools:text="Sign in with Twitter"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_w_border"
+        android:text="Log in with Email"
+        android:textColor="#C0C0C0"
+        tools:text="Sign in with Email"/>
 
 </LinearLayout>
